@@ -1,0 +1,40 @@
+body {
+  font-family: 'Caudex', serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+}
+
+p {
+  background-color: rgba(124, 18, 22, 0.5);
+  text-align: center;
+  font-size: 2rem;
+}
+
+#tribute-link-p {
+  background-color: white;
+  font-size: 2rem;
+}
+
+#img-caption {
+  background-color: white;
+  font-style: italic;
+  font-size: 25px;
+  margin: 0;
+}
+
+#tribute-info {
+  margin: 0 100px 100px 100px;
+}
