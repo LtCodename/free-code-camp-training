@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Formula 1 Fan Survey</h1>
+      <p id="description">What is your favourite English team and driver?</p>
+      <div id="form-div">
+        <form class="" action="index.html" method="post" id="survey-form">
+          <div class="row"><!--Text form-->
+            <label for="name" id="name-label">* Name: <input name="name" type="text" id="name" required placeholder="Enter your name"></label>
+          </div>
+
+          <div class="row"><!--Email form-->
+            <label for="email" id="email-label">* Email: <input name="email" type="email" id="email" required placeholder="Enter your Email"></label>
+          </div>
+
+          <div class="row"><!--Number form-->
+            <label for="age" id="number-label">* Age: <input name="age" type="number" id="number" placeholder="Age" min="16" max="99"></label>
+          </div>
+
+          <div class="row"><!--Dropdown-->
+            <label for="dropdown">* Select team:
+              <select id="dropdown">
+                <option value="racing-point">Racing Point</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="red-bull">Red Bull</option>
+                <option value="mclaren">McLaren</option>
+                <option value="williams">Williams</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="row"><!--Radio-->
+              <legend>Select driver:</legend>
+               <input type="radio" value="lewis" name="drivers"> <label class="driver" for="radio">Lewis Hamilton</label><br>
+               <input type="radio" value="lando" name="drivers"> <label class="driver" for="radio">Lando Norris</label><br>
+               <input  type="radio" value="george" name="drivers"> <label class="driver" for="radio">George Russell</label>
+          </div>
+
+          <div class="row"><!--Checkbox-->
+              <legend>Which of these chassis are British?</legend>
+               <input type="checkbox" name="checkbox" value="amg"> <label class="chassis" for="one">AMG F1 W10</label><br>
+               <input type="checkbox" name="checkbox" value="sf90"> <label class="chassis" for="two">SF90</label><br>
+               <input type="checkbox" name="checkbox" value="rb15"> <label class="chassis" for="three">Aston Martin RB15</label><br>
+               <input type="checkbox" name="checkbox" value="l34"> <label class="chassis" for="three">MCL34</label><br>
+               <input type="checkbox" name="checkbox" value="rs18"> <label class="chassis" for="three">RS18</label><br>
+               <input type="checkbox" name="checkbox" value="rp19"> <label class="chassis" for="three">RP19</label><br>
+               <input type="checkbox" name="checkbox" value="str14"> <label class="chassis" for="three">STR14</label><br>
+               <input type="checkbox" name="checkbox" value="c38"> <label class="chassis" for="three">C38</label><br>
+               <input type="checkbox" name="checkbox" value="vf19"> <label class="chassis" for="three">VF-19</label><br>
+               <input type="checkbox" name="checkbox" value="fw42"> <label class="chassis" for="three">FW42</label><br>
+          </div>
+
+          <div class="row"><!--Textarea-->
+              <label for="textarea">Why do you love F1?</label>
+              <textarea name="textarea" rows="5" cols="50" placeholder="Leave your comment here"></textarea>
+          </div>
+
+          <div class="row"><!--Submit-->
+            <button id="submit" type="submit" name="button">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
