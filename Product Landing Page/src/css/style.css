@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif KR', serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+  color: #cfcdd1;
+}
+
+body {
+  padding-top: 70px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: #cfcdd1;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+.gallery {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+#header-img {
+  width: 100px;
+}
+
+#contacts {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 15px;
+  }
+}

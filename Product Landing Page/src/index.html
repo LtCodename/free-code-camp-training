@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+  </head>
+  <body>
+
+    <header id="header">
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/uk/c/c0/NVIDIA_logo.png" alt="Nvidia Company Logo">
+      <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#rtx"><strong>GEFORCE RTX 2080</strong></a></li>
+            <li><a class="nav-link" href="#gallery"><strong>GALLERY</strong></a></li>
+          <li>  <a class="nav-link" href="#contacts"><strong>CONTACTS</strong></a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="section" id="rtx">
+      <h2>GeForce RTX 2080</h2>
+        <p>The GeForce RTX 2080 is powered by the all-new NVIDIA Turing architecture to give you incredible new levels of gaming realism, speed, power efficiency, and immersion. This is graphics reinvented. </p>
+        <p>GeForce RTX graphics cards are powered by the Turing GPU architecture and the all-new RTX platform. This gives you up to 6X the performance of previous-generation graphics cards and brings the power of real-time ray tracing and AI to games.</p>
+        <p>The factory overclocked GeForce RTX 2080 Founders Edition graphics card features a next-gen 8-phase power supply for maximum overclocking and dual-axial 13-blade fans coupled with a new vapor chamber for ultra-cool and quiet performance.</p>
+    </div>
+
+    <div class="section" id="gallery">
+      <iframe id="video" width="720" height="405" src="https://www.youtube.com/embed/icYsbGEmQVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <img class="gallery" src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080/gallery/geforce-rtx-2080-gallery-a.jpg" alt="">
+      <img class="gallery" src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080/gallery/geforce-rtx-2080-gallery-b.jpg" alt="">
+      <img class="gallery" src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080/gallery/geforce-rtx-2080-gallery-c.jpg" alt="">
+      <img class="gallery" src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-rtx-turing/2080/gallery/geforce-rtx-2080-gallery-d.jpg" alt="">
+    </div>
+
+    <div class="section" id="contacts">
+      <h2>Contacts</h2>
+      <p>Leave your Email and we will send you some additional information.</p>
+      <form id="form" class="" action="https://www.freecodecamp.com/email-submit" method="post">
+          <label for="email" ">* Email: <input id="email" name="email" type="email" id="email" required placeholder="Enter your Email"></label>
+          <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </div>
+
+  </body>
+</html>
