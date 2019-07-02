@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif KR', serif;
+}
+
+main {
+  padding-top: 30px;
+}
+
+h1, h2 {
+  font-family: 'Ultra', serif;
+  font-size: 10rem;
+}
+
+nav {
+  position: fixed;
+  background-color: rgba(170, 1, 20, 1);
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+.links-matrix img {
+  width: 200px;
+}
+
+#welcome-section {
+  height: 100vp;
+  background-color: rgba(0, 46, 110, 0.6);
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
+#projects {
+  background-color: rgba(58, 61, 64, 0.6);
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
+#projects img {
+  padding: 10px;
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+#contacts {
+  background-color: rgba(0, 214, 214, 0.4);
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  main, nav {
+    font-size: 11px
+  }
+}
