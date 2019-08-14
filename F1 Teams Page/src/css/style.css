@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .fia-logo-img {
@@ -16,17 +16,20 @@ a {
   text-decoration: none;
 }
 
+.content-centered {
+  max-width: 1300px;
+  margin: auto;
+  width: 100%;
+}
+
 .upper-nav {
   display: flex;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .lower-nav-content {
   display: flex;
-  align-items: left;
-  max-width: 1320px;
+  align-items: center;
 }
 
 .upper-left-container {
@@ -49,7 +52,7 @@ a {
 
 .lower-nav {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   height: 71px;
   align-items: center;
   background: #e10600;
@@ -76,17 +79,18 @@ ul, ol, li {
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
 .nav-links-a {
   color: white;
   /*padding: 26px 8px 13px 13px;*/
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   text-decoration: none;
 }
 
-.menu-and-buttons, .footer-top-container {
+/*.menu-and-buttons,*/ .footer-top-container {
   border: 1px black solid;
 }
 
@@ -105,18 +109,19 @@ ul, ol, li {
 
 .global-links-a {
   color: black;
+  text-transform: uppercase;
 }
 
 .nav-secondary {
     display: block;
     background: #15151e;
-    position: absolute;/*EXPLAIN}*/
-    left: 0;/*EXPLAIN}*/
-    z-index: 101;/*EXPLAIN}*/
+    position: absolute;
+    left: 0;
+    z-index: 101;
     width: 100%;
-    overflow: hidden;/*EXPLAIN}*/
+    overflow: hidden;
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid #e10600;/*EXPLAIN}*/
+    border-bottom: 1px solid #e10600;
     color: white;
 }
 
