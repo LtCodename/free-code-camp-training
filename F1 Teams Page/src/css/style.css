@@ -6,6 +6,10 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 html, body {
   height: 100%;
 }
@@ -310,7 +314,7 @@ ul, ol, li {
 .footer-bottom-container {
   color: white;
   border-bottom: 1px solid #38383f;
-  padding: 15px 10px;
+  padding: 15px 0;
 }
 
 .row {
@@ -342,9 +346,34 @@ ul, ol, li {
 }
 
 .footer-baseline-container {
-  height: 80px;
+  padding: 25px 0;
   color: white;
-  padding-left: 10px;
+}
+
+.copyright {
+  color: #d0d0d2;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: right;
+  margin: 0;
+}
+
+.col-sm-12, .col-md-6 {
+  padding: 0;
+}
+
+/*Content*/
+
+.team-a {
+  display: flex;
+}
+
+.team-image-container {
+  display: flex;
+}
+
+.team-color {
+  width: 5px;
 }
 
 #f1-logo-image {
