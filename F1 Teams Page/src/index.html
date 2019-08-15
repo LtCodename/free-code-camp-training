@@ -8,8 +8,8 @@
     <title>F1 Racing Teams 2019 - Ferrari, McLaren Mercedes and more</title>
   </head>
 
-  <body>
-    <div class="site-wrapper">
+  <body class="d-flex flex-column">
+    <div id="page-content">
       <header id="header">
       </header>
       <!--Navigation starts-->
@@ -48,54 +48,54 @@
         <div class="lower-nav">
           <div class="lower-nav-content content-centered">
             <div class="f1-logo">
-              <a href="#"><img id="f1-logo-image" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="F1 logo"></a>
+              <a href="#"><span class="f1-logo-span"><img id="f1-logo-image" src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" alt="F1 logo"></span></a>
             </div>
             <div class="nav-links">
               <ul class="nav-links-ul">
                 <li>
-                  <a class="nav-links-a" href="#"><span>Latest</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Latest</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Video</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Video</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Races</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Races</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Standings</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Standings</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Drivers</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Drivers</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Teams</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Teams</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Gaming</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Gaming</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
                 </li>
                 <li>
-                  <a class="nav-links-a" href="#"><span>Live Timing</span></a>
+                  <a class="nav-links-a" href="#"><span class="nav-links-span">Live Timing</span></a>
                   <div class="nav-secondary" style="display: none;">
                     Info on hover.
                   </div>
@@ -111,6 +111,10 @@
       <main>
         <div class="title-wrap">
           <h1 class="page-title">F1 Teams</h1>
+          <h2>Content</h2>
+          <h2>Content</h2>
+          <h2>Content</h2>
+          <h2>Content</h2>
         </div>
         <div class="main-cintent">
           <ul class="teams-table">
@@ -146,20 +150,20 @@
         </div>
       </main>
       <!--Main ends-->
-
-      <!--Footer starts-->
-      <footer class="page-footer">
-        <div class="footer-top">
-          <div class="footer-top-container">
+    </div>
+    <!--Footer starts-->
+    <footer class="page-footer" id="sticky-footer">
+        <div class="grey-underfooter">
+          <!--Footer Top-->
+          <div class="footer-top-container content-centered">
             <div class="app-text-links">
               <div class=""><p class="download-app-text">Download the Official F1 App</p></div>
-              <div class="">
-                <ul class="download-links">
+              <div class="download-links-div">
+                <ul class="download-links-ul">
                   <li><a href="#"><img class="app-image" src="https://www.formula1.com/etc/designs/fom-website/images/svg/google-play-badge.svg" alt="Google Play F1 App"></a></li>
                   <li><a href="#"><img class="app-image" src="https://www.formula1.com/etc/designs/fom-website/images/svg/download-on-the-app-store-apple.svg" alt="App Store F1 App"></a></li>
                 </ul>
               </div>
-
             </div>
             <div class="share-buttons">
               <ul class="share-buttons-ul">
@@ -171,18 +175,94 @@
             </div>
           </div>
         </div>
-        <div class="footer-middle">
-
+        <div class="black-underfooter">
+          <!--Footer Middle-->
+          <div class="footer-middle-container content-centered">
+            <div class="row">
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Latest News</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Video</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Drivers</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Teams</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Racing</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Standings</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>2019 season</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Driver Standings</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Constructor Standings</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Archive 1950-2018</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>F1 Awards</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Gaming</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Esports</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Fantasy</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>Daily Fantasy</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>F1 Play</span></a></li>
+                  <li><a class="middle-footer-a a-secondary" href="#"><span>F1 2019 - The Official Video Game</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Live Timing</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Tickets</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>F1 Experience&reg</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Store</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>Paddock Club</span></a></li>
+                  <li><a class="middle-footer-a a-main" href="#"><span>F1&reg TV</span></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul class="middle-footer-ul">
+                  <li><a class="middle-footer-a a-main" href="#"><span>Rules & Regulations</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--Footer Bottom-->
+          <div class="footer-bottom-container content-centered">
+            <div class="row">
+              <div class="col-xl-12">
+                <ul>
+                  <li>
+                    <ul class="footer-bottom-ul">
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Contacts</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>FAQ</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Privacy Policy</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Cookies Policy</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Guidelines</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Legal Notices</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Human Rights</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Modern Salavery Statement</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Gender Pay Report</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Anti-Bribery</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Terms Of Use</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Partners</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>F1&reg Fan Voice</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>Beyond The Grid - The F1&reg podcast</span></a></li>
+                      <li class="footer-bottom-li" ><a class="footer-bottom-a" href="#"><span>F1 Extreme Innovation</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-baseline-container content-centered">
+            
+          </div>
         </div>
-        <div class="footer-bottom">
-
-        </div>
-        <div class="footer-baseline">
-
-        </div>
-      </footer>
-      <!--Fpooter ends-->
-    </div>
+    </footer>
+    <!--Fpooter ends-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
