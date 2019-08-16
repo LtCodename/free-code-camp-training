@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
+  background-color: #f7f4f1;
 }
 
 img {
@@ -59,11 +60,16 @@ ul, ol, li {
   align-items: center;
 }
 
-/*.menu-and-buttons, .footer-top-container {
-  border: 1px black solid;
-}*/
-
 /*Nav*/
+
+.nav-wrapper{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+}
+
 /*Upper nav*/
 
 .upper-nav {
@@ -161,6 +167,10 @@ ul, ol, li {
    height: 39px;
  }
 
+ .icon-user {
+   margin-right: 5px;
+ }
+
 /*lower nav*/
 
 .lower-nav-content {
@@ -229,6 +239,10 @@ ul, ol, li {
 
 /*Footer*/
 
+footer {
+  margin-top: 2px;
+}
+
 .app-image {
   width: 135px;
   margin-right: 10px;
@@ -271,12 +285,17 @@ ul, ol, li {
 }
 
 .share-btn {
-  padding: 10px;
   background-color: inherit;
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
-  margin: 5px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  font-size: 24px;
+  margin-left: 10px;
 }
 
 .footer-middle-container {
@@ -315,13 +334,6 @@ ul, ol, li {
   color: white;
   border-bottom: 1px solid #38383f;
   padding: 15px 0;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -10px;
-  margin-left: -10px;
 }
 
 .footer-bottom-a {
@@ -364,16 +376,161 @@ ul, ol, li {
 
 /*Content*/
 
+.title-wrap {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main {
+  padding-top: 120px;
+}
+
+main h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.team-section  {
+  background-color: white;
+  color: #545454;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+.details-left {
+  width: 50%;
+}
+
+.details-right {
+  width: 50%;
+}
+
+.upper-row {
+  border-bottom: 1px solid rgba(84, 84, 84, 0.5);
+}
+
+.team-section a  {
+  color: #545454;
+}
+
+.team-section a:hover  {
+  color: white;
+}
+
+.team-section h2  {
+  color: black;
+  font-weight: bold;
+}
+
+.team-section a:hover h2  {
+  color: white;
+}
+
 .team-a {
   display: flex;
 }
 
 .team-image-container {
+  width: 50%;
   display: flex;
+}
+
+.i-love-flex {
+  display: flex;
+}
+
+.lefty {
+  text-align: right;
+}
+
+.team-image {
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.team-image img {
+  position: absolute;
+}
+
+.team-details {
+  display: flex;
+  width: 50%;
+  padding: 70px 65px;
 }
 
 .team-color {
   width: 5px;
+}
+
+.team-section:hover {
+  background: #15151e;
+  transition: background .3s;
+}
+
+.team-flag {
+  width: 28px;
+  height: 16.8px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.team-name {
+  display: flex;
+  align-items: center;
+  margin: 0 0 25px;
+}
+
+.fa-redhat {
+  margin-right: 10px;
+}
+
+.driver {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.col-10, .col-2 {
+  padding: 0;
+}
+
+.col-10 {
+  margin-bottom: 20px;
+}
+
+.lower-row .fas {
+  margin-right: 10px;
+}
+
+.upper-row .fas {
+  margin-right: 10px;
+}
+
+.lower-row {
+  margin-top: 20px;
+}
+
+.row p {
+  margin: 0;
+}
+
+.lower-row .col-10 {
+  padding-bottom: 25px;
+}
+
+.team-name h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.team-drivers p {
+  margin: 0;
+  padding: 0;
+}
+
+.team-sponsor {
+  width: 75%;
 }
 
 #f1-logo-image {

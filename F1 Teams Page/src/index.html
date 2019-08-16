@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
     <title>F1 Racing Teams 2019 - Ferrari, McLaren Mercedes and more</title>
+    <script src="https://kit.fontawesome.com/11b7337f09.js"></script>
   </head>
 
   <body class="d-flex flex-column">
@@ -39,7 +40,7 @@
                 </ul>
               </div>
               <div class="action-buttons">
-                <button type="button" name="button" class="btn sign-btn"><span class="glyphicon glyphicon-user"></span>SIGN IN</button>
+                <button type="button" name="button" class="btn sign-btn"><i class="fas fa-user icon-user"></i></span>SIGN IN</button>
                 <button type="button" name="button" class="btn subscribe-btn">SUBSCRIBE</button>
               </div>
             </div>
@@ -109,15 +110,52 @@
 
       <!--Main starts-->
       <main>
-        <div class="title-wrap">
+        <div class="title-wrap content-centered">
           <h1 class="page-title">F1 Teams</h1>
         </div>
         <div class="main-content content-centered">
+          <!--Mercedes-->
           <section class="team-section">
             <a class="team-a" href="#">
               <!--Left part-->
               <div class="team-details">
-                Content
+                <div class="details-left">
+                  <div class="team-name">
+                    <img class="team-flag" src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/countryFlag.img.png/1421365156900.png" alt="Team Flag">
+                    <h2>Mercedes</h2>
+                  </div>
+                  <div class="team-drivers">
+                    <div class="driver">
+                      <i class="fab fa-redhat"></i>
+                      <p>Lewis Hamilton</p>
+                    </div>
+                    <div class="driver">
+                      <i class="fab fa-redhat"></i>
+                      <p>Valtteri Bottas</p>
+                    </div>
+                  </div>
+                  <div class="team-sponsor">
+                    <img class="team-sponsor-image" src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/logo.img.jpg/1486740144183.jpg" alt="Team Sponsor">
+                  </div>
+                </div>
+                <div class="details-right">
+                  <div class="row upper-row">
+                    <div class="col-10 i-love-flex">
+                      <i class="fas fa-flag-checkered"></i><p>Podium finishes</p>
+                    </div>
+                    <div class="col-2 lefty">
+                      <p>181</p>
+                    </div>
+                  </div>
+                  <div class="row lower-row">
+                    <div class="col-10 i-love-flex">
+                      <i class="fas fa-trophy"></i><p>Championship titles</p>
+                    </div>
+                    <div class="col-2 lefty">
+                      <p>5</p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <!--Right part-->
               <div class="team-image-container">
@@ -128,22 +166,58 @@
               </div>
             </a>
           </section>
-          <!--R<ul class="teams-table">
-            <li class="team-li">
-
-            </li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-            <li class="team-li"></li>
-          </ul>-->
+          <!--McLaren-->
+          <section class="team-section">
+            <a class="team-a" href="#">
+              <!--Left part-->
+              <div class="team-details">
+                <div class="details-left">
+                  <div class="team-name">
+                    <img class="team-flag" src="https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/countryFlag.img.jpg/1422627084440.jpg" alt="Team Flag">
+                    <h2>McLaren</h2>
+                  </div>
+                  <div class="team-drivers">
+                    <div class="driver">
+                      <i class="fab fa-redhat"></i>
+                      <p>Carlos Sainz</p>
+                    </div>
+                    <div class="driver">
+                      <i class="fab fa-redhat"></i>
+                      <p>Lando Norris</p>
+                    </div>
+                  </div>
+                  <div class="team-sponsor">
+                    <img class="team-sponsor-image" src="https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/logo.img.jpg/1515152671364.jpg" alt="Team Sponsor">
+                  </div>
+                </div>
+                <div class="details-right">
+                  <div class="row upper-row">
+                    <div class="col-10 i-love-flex">
+                      <i class="fas fa-flag-checkered"></i><p>Podium finishes</p>
+                    </div>
+                    <div class="col-2 lefty">
+                      <p>485</p>
+                    </div>
+                  </div>
+                  <div class="row lower-row">
+                    <div class="col-10 i-love-flex">
+                      <i class="fas fa-trophy"></i><p>Championship titles</p>
+                    </div>
+                    <div class="col-2 lefty">
+                      <p>8</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Right part-->
+              <div class="team-image-container">
+                <span class="team-color" style="background: #FF8700"></span>
+                <div class="team-image">
+                  <img src="https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/image16x9.img.1920.medium.jpg/1561122843324.jpg" alt="">
+                </div>
+              </div>
+            </a>
+          </section>
         </div>
       </main>
       <!--Main ends-->
@@ -164,10 +238,10 @@
             </div>
             <div class="share-buttons">
               <ul class="share-buttons-ul">
-                <li><a class="share-btn" href="#">F</a></li>
-                <li><a class="share-btn" href="#">T</a></li>
-                <li><a class="share-btn" href="#">I</a></li>
-                <li><a class="share-btn" href="#">Y</a></li>
+                <li><a class="share-btn" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="share-btn" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="share-btn" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="share-btn" href="#"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
           </div>
