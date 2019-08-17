@@ -11,7 +11,6 @@ ul {
 }
 
 /*Upper Nav*/
-
 .upper-nav-ul {
   display: flex;
   padding: 0;
@@ -51,4 +50,100 @@ ul {
   text-decoration: none;
   background: #fff;
   transition: background .1s;
+}
+
+/*Bottom Nav*/
+.bottom-nav-wrapper {
+  top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.99);
+  border-top: 4px solid rgb(177, 36, 96);
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.bottom-nav {
+  padding: 0px 18px;
+  margin: 0 4.5px;
+}
+
+.logo-profile-container {
+  display: flex;
+  margin: 25px 0;
+}
+
+.logo-info {
+  display: flex;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.slogan {
+  margin: 0;
+}
+
+.slogan-div {
+  padding: 6px 0 0 16px;
+  margin: 0 0 0 16px;
+  color: #666666;
+  font-size: 14px;
+  border-left: 1px solid rgb(204, 204, 204);
+}
+
+.search-profile {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.navigator-a {
+  color: black;
+  font-size: 14px;
+}
+
+.navigator-a:hover {
+  color: rgb(177, 36, 96);
+  text-decoration: none;
+}
+
+.navigator-span {
+  text-transform: uppercase;
+  margin-right: 8px;
+  padding: 0px 6px;
+  text-align: center;
+}
+
+.navigator-container {
+  max-width: 820px;
+  margin-bottom: 24px;
+}
+
+.navigator-container .selected {
+  background-color: rgb(177, 36, 96);
+  color: white;
+  padding: 4px;
+}
+
+.search-profile-a {
+  margin: 0 8px;
+  font-size: 22px;
+}
+
+/*Main*/
+/*First Content Bit*/
+.first-content-grid {
+  display: grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap: 20px 20px;
+}
+
+.first-content-bit {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 20px;
+}
+
+.first-content-left-bit, .first-content-middle-bit {
+  border-right: 1px solid rgb(229, 229, 229);
 }
