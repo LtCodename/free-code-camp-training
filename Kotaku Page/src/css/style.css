@@ -10,7 +10,17 @@ ul {
   list-style: none;
 }
 
+main {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
 /*Upper Nav*/
+.nav-wrapper {
+  position: relative;
+}
+
 .upper-nav-ul {
   display: flex;
   padding: 0;
@@ -24,7 +34,24 @@ ul {
   padding: 3.5px 8px;
   font-size: 14px;
   text-transform: uppercase;
-  position: relative;
+}
+
+.upper-nav-sub-menu {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  z-index: 101;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.upper-nav-li:hover .upper-nav-sub-menu {
+  height: auto;
+  opacity: 1;
+  border-bottom: 1px solid #eee;
+  padding: 5px 20px;
 }
 
 .partner {
@@ -194,7 +221,7 @@ ul {
   margin-top: 25px;
 }
 
-.l-author-span, .m-author-span, .r-author-span {
+.l-author-span, .m-author-span, .r-author-span, .l-post-author-span {
   color: #666666;
   font-size: 12px;
 }
@@ -221,7 +248,7 @@ ul {
   margin-top: 20px;
 }
 
-.m-title-div, .r-title-div {
+.m-title-div, .r-title-div, .l-post-title-div {
   padding-top: 20px;
   color: black;
 }
@@ -235,7 +262,7 @@ ul {
   text-decoration-color: black;
 }
 
-.m-author-div, .r-author-div {
+.m-author-div, .r-author-div, .l-post-author-div {
   margin-top: 5px;
 }
 
@@ -258,6 +285,10 @@ ul {
   margin: 0 auto;
 }
 
+.also-like {
+  margin-top: 40px;
+}
+
 .post-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -265,4 +296,69 @@ ul {
 
 .l-post-image img {
   width: 100%;
+  margin-top: 20px;
+}
+
+.post-left-bit {
+  padding: 0 60px 0 20px;
+}
+
+/*Footer*/
+footer {
+ background-color: rgb(34, 34, 34);
+ padding: 40px 0 0 0;
+}
+
+.footer-logo, .footer-share, .goto-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.goto-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-share {
+  padding: 14px 0 50px;
+}
+
+.goto-a {
+  color: rgb(125, 125, 125);
+  font-size: 16px;
+}
+
+.goto-a:hover {
+  color: rgb(125, 125, 125);
+}
+
+.goto-li {
+  padding: 0 24px;
+}
+
+.footer-goto {
+  padding: 0 0 40px;
+}
+
+.footer-more p {
+  color: rgb(125, 125, 125);
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.footer-more img {
+  margin-top: 15px;
+}
+
+.footer-more {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.footer-legal {
+  text-align: center;
+  color: rgb(125, 125, 125);
+  font-size: 12px;
+  padding-bottom: 50px;
 }

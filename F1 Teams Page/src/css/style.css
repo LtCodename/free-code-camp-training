@@ -217,24 +217,32 @@ ul, ol, li {
   display: flex;
 }
 
-.nav-links-a:hover {
+.nav-links-ul li:hover .nav-links-a {
   background: #15151e;
   color: white;
   transition: background .5s;
   text-decoration: none;
 }
 
+.nav-links-ul li:hover .nav-secondary {
+  display: block;
+  opacity: 1;
+  height: auto;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #e10600;
+}
+
 .nav-secondary {
-    display: block;
+    opacity: 0;
+    height: 0;
     background: #15151e;
     position: absolute;
     left: 0;
     z-index: 101;
     width: 100%;
     overflow: hidden;
-    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid #e10600;
     color: white;
+    transition: opacity .5s;
 }
 
 /*Footer*/
@@ -451,6 +459,15 @@ main h1 {
 
 .team-image img {
   position: absolute;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  transition: all .2s ease-out;
+}
+
+.team-a:hover .team-image img {
+  min-width: 120%;
 }
 
 .team-details {
