@@ -132,18 +132,137 @@ ul {
 }
 
 /*Main*/
-/*First Content Bit*/
-.first-content-grid {
+/*Content Bit*/
+.content-grid {
   display: grid;
   grid-template-columns:2fr 1fr 1fr;
   gap: 20px 20px;
 }
 
-.first-content-bit {
+.content-bit {
   border-bottom: 1px solid rgb(229, 229, 229);
   padding: 20px;
 }
 
-.first-content-left-bit, .first-content-middle-bit {
+.content-middle-bit {
   border-right: 1px solid rgb(229, 229, 229);
+}
+
+.content-middle-bit {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-left: 1px solid rgb(229, 229, 229);
+}
+
+.l-image-container img, .r-image-container img {
+  width: 100%;
+}
+
+.l-content-container {
+  text-align: center;
+}
+
+.l-feature-div {
+  margin-top: 20px;
+}
+
+.l-feature-a {
+  color: #b12460;
+  border: 1px solid #b12460;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.l-feature-a:hover {
+  color: #b12460;
+  text-decoration: none;
+}
+
+.l-title-a {
+  color: black;
+  font-size: 28px;
+}
+
+.l-title-a:hover {
+  color: black;
+  font-size: 28px;
+  text-decoration-color: black;
+}
+
+.l-title-div {
+  margin-top: 25px;
+}
+
+.l-author-span, .m-author-span, .r-author-span {
+  color: #666666;
+  font-size: 12px;
+}
+
+.l-author-a:hover, .m-author-a:hover, .r-author-a:hover {
+  color: #666666;
+}
+
+.l-author-div {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.m-image-container img {
+  width: 100%;
+}
+
+.middle-upper-div {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 15px;
+}
+
+.middle-lower-div {
+  margin-top: 20px;
+}
+
+.m-title-div, .r-title-div {
+  padding-top: 20px;
+  color: black;
+}
+
+.m-title-a, .r-title-a {
+  color: black;
+}
+
+.m-title-a:hover, .r-title-a:hover {
+  color: black;
+  text-decoration-color: black;
+}
+
+.m-author-div, .r-author-div {
+  margin-top: 5px;
+}
+
+.content-right-bit {
+  margin-right: 40px;
+}
+
+.r-text-div {
+  margin-top: 10px;
+}
+
+.r-text-span {
+  font-size: 15px;
+}
+
+/*Post Bit*/
+.restriction {
+  max-width: 1336px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.l-post-image img {
+  width: 100%;
 }
