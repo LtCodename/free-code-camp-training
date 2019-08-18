@@ -303,6 +303,101 @@ main {
   padding: 0 60px 0 20px;
 }
 
+.post-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.post {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 35px;
+}
+
+.post-right-bit {
+  padding: 82px 40px 40px 40px;
+  border-left: 1px solid rgb(229, 229, 229);
+}
+
+.tools {
+  text-align: center;
+  margin-right: 20px;
+  color: rgb(125, 125, 125);
+  width: 80px;
+  line-height: 12px;
+}
+
+.fa-clock {
+  margin-bottom: 5px;
+}
+
+.fa-bookmark {
+  margin-top: 15px;
+}
+
+.tools span {
+  font-size: 10px;
+}
+
+.tools i {
+  font-size: 20px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.post-title {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.post-author img {
+  width: 30px;
+  height: auto;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.author-name a {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.author-name a:hover {
+  color: #666666;
+}
+
+.post-comments a {
+  color: rgb(177, 36, 96);
+}
+
+.post-comments::before {
+  content: "|";
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(125, 125, 125);
+  vertical-align: text-top;
+  margin-top: 1px;
+  padding: 0px 8px;
+  bottom: 2px;
+}
+
+.post-title a {
+  color: black;
+}
+
+.post-title a:hover {
+  color: black;
+}
+
 /*Footer*/
 footer {
  background-color: rgb(34, 34, 34);
@@ -320,7 +415,7 @@ footer {
 }
 
 .footer-share {
-  padding: 14px 0 50px;
+  padding: 14px 0 40px;
 }
 
 .goto-a {
@@ -348,12 +443,12 @@ footer {
 }
 
 .footer-more img {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .footer-more {
   text-align: center;
-  padding-bottom: 45px;
+  padding-bottom: 40px;
 }
 
 .footer-legal {
