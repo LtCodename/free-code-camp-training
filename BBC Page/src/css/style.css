@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.restriction {
+  max-width: 976px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*Navs*/
+/*Upper Nav*/
+
+.white-nav-visible-wrapper {
+  border-bottom: 1px solid grey;
+}
+
+/*Lower Nav*/
