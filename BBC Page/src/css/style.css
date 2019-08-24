@@ -202,6 +202,7 @@ body {
   text-decoration: none;
   padding: 10px 0 4px 12px;
   font-size: 14px;
+  border-bottom: 4px solid transparent;
 }
 
 .lower-nav-short-li {
@@ -212,4 +213,16 @@ body {
 .lower-nav-short-a:hover {
   color: white;
   text-decoration: none;
+  border-color: white;
+}
+
+.lower-nav-short-span {
+  border-right: 1px solid #bb4545;
+  display: block;
+  padding-right: 12px;
+}
+
+.more:hover {
+  background-color: black;
+  border-bottom-color: transparent;
 }
