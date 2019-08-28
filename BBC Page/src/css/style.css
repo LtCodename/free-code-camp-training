@@ -326,6 +326,33 @@ body {
   z-index: 101;
 }
 
+/*Content*/
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.left-bits {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.left-bit-first-texts-wrapper {
+  width: 40%;
+}
+
+.left-bit-first-pic-wrapper {
+  width: 60%
+}
+
+.left-first-content {
+  display: flex;
+}
+
+.left-bit-first-pic {
+  width: 100%;
+}
+
 /*Footer*/
 .footer-wrapper {
   background-color: #4c4c4c;
