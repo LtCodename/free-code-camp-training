@@ -226,3 +226,85 @@ body {
   background-color: black;
   border-bottom-color: transparent;
 }
+
+.another-triangle {
+  position: relative;
+}
+
+.another-triangle::before {
+  content: "";
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  top: 7px;
+  left: 4px;
+}
+
+.more {
+  padding-right: 25px;
+}
+
+.lower-nav-hidden-wrapper {
+  background-color: black;
+  border-bottom: 4px solid #bb1919;
+  color: white;
+}
+
+.lower-nav-hidden {
+  display: flex;
+}
+
+.lower-nav-hidden-li {
+  list-style: none;
+}
+
+.need-border {
+  border-right: 1px solid #464646;
+}
+
+.lower-nav-hidden-ul {
+  width: 25%;
+  float: left;
+  padding: 1em 0;
+  margin: 0;
+}
+
+.lower-nav-hidden-a {
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin: 0 20px;
+  padding: 20px 0 0 0;
+}
+
+.lower-nav-hidden-a:hover {
+  color: white;
+}
+
+.lower-nav-hidden-span {
+  margin-right: 10px;
+}
+
+.mega-triangle {
+  position: relative;
+}
+
+.mega-triangle::after {
+  content: "";
+  position: absolute;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-left: 10px solid red;
+  top: 1px;
+}
+
+.mega-triangle::before {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 7px solid black;
+  top: 4px;
+  z-index: 101;
+}
