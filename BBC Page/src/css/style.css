@@ -266,6 +266,11 @@ body {
   background-color: black;
   border-bottom: 4px solid #bb1919;
   color: white;
+  display: none;
+}
+
+.white-nav-invisible-wrapper {
+  display: none;
 }
 
 .lower-nav-hidden {
